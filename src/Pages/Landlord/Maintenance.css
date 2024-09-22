@@ -1,0 +1,125 @@
+.Maintainontainer {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    & .headup {
+        width: 95%;
+        height: 10%;
+        /* background-color: #fff; */
+    
+
+
+        & h4 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 28.72px;
+            text-align: left;
+            color: #141415;
+
+        }
+
+        & p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28.72px;
+            text-align: left;
+            color: #141415;
+        }
+    }
+
+
+    & .thebox {
+        width: 95%;
+        height: 85%;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        & .theboxheader {
+            width: 100%;
+            height: 10%;
+            background-color: #D9E8FF;
+            border-radius: 10px 10px 0px 0px;
+            display: flex;
+            justify-content: space-between;
+            padding-inline: 20px;
+
+
+            & .left {
+                width: 50%;
+                height: 100%;
+                /* background-color: #fff; */
+                display: flex;
+                align-items: center;
+
+                & p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28.72px;
+                    text-align: left;
+                    color: #141415;
+                }
+            }
+
+            & .right {
+                width: 45%;
+                height: 100%;
+                /* background-color: white; */
+                display: flex;
+                align-items: center;    
+                /* padding-inline: 20px; */
+
+
+                & p {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 28.72px;
+                    color: #141415;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+
+.inside {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(216, 135, 135); */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 70px */
+
+    & img {
+        width: 20%;
+    }
+
+    & h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28.72px;
+        text-align: center;
+
+    }
+
+    & p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28.72px;
+        text-align: center;
+
+    }
+}
+
+

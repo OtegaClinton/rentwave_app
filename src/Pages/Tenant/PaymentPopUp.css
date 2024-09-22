@@ -1,0 +1,86 @@
+
+.PaymentPopupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; 
+  }
+  
+  .payFormHeader{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+ 
+  }
+  .PaymentFormWrapper {
+    background-color: white;
+    height: 75%;
+    width:35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:space-between; */
+    /* gap: 25px; */
+   & form{
+    height: 85%;
+    width: 90%;
+   
+   }
+  }
+  .InputPayForm{
+    height: 90%;
+    width: 100%;
+    gap: 5px;
+ 
+  }
+.payInput{
+    height:20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: red; */
+    & input{
+        height: 60%;
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid grey;
+    }
+    & select{
+        height: 60%;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+    }
+    & p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+.payButton{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-color: red; */
+    & button{
+        height: 80%;
+        width:25%;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        background-color:#4D86DB;
+        cursor: pointer;
+    }
+}

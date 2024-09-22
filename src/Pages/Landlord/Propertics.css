@@ -1,0 +1,208 @@
+.PropsContainers {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.bot{
+    width: 400px;
+    height:30px;
+    background-color: #4D86DB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.up{
+    width: 100%;
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+
+
+    & p {
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+    
+    }
+
+    & input {
+        width: 60%;
+        height: 50%;
+        border: 1px solid #696969;
+        border-radius: 10px;
+        background-color: transparent;
+        outline: none;
+        padding: 10px;
+    }
+
+}
+.propertiesHeader {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue; /* Header background color */
+    color: black; /* Header text color */
+    padding: 10px;
+    border-radius: 5px 5px 0 0; /* Rounded corners on the top */
+    font-weight: bold;
+    position: sticky;
+  }
+  .propertiesHeader h6 {
+    flex: 1; /* Each header takes equal space */
+    text-align: left;
+    font-size: 20px; /* Center text */
+    padding-left: 20px;
+  }
+  
+  .propertiesCard {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Ensure items are spaced evenly */
+    align-items: flex-start; /* Center items vertically */
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(163, 161, 161);
+  }
+  
+  .propertyData {
+    display: flex;
+    justify-content: space-between; /* Space the properties evenly */
+    width: 100%; /* Make sure it takes full width */
+  }
+  
+  .propertiesCard h6 {
+    margin: 0; /* Remove default margin */
+    flex: 1; /* Each property data takes equal space */
+    text-align: left; /* Center align each property data */
+  }
+.btnsLandlord {
+  width: 100%;
+  height: 10%;  
+display: flex;
+justify-content: flex-end;
+
+  & .btnsLand {
+    width: 20%;
+    height: 75%;
+    background-color: #4D86DB;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    right: 8%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.table3 {
+    width: 95%;
+    height: 72%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+
+    & img {
+        width: 20%;
+    }
+
+    & p {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 28.72px;
+        text-align: center;
+        color: #000000;
+    }
+}
+.propertiesCard{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding-inline: 10px;
+    text-align: left;
+    background-color:white;
+    cursor: pointer;
+}
+.propertiesCard h6{
+    font-size: 18px;
+}
+.propertiesCard span{
+    font-weight: 400;
+}
+.propertyDel{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.propertyDel:hover{
+    background-color: rgb(197, 5, 5);
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+@media screen  and (max-width: 900px) {
+    .up{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .up input{
+        width: 300px;
+        height: 20px;
+        display: flex;
+    }
+    .btnsLandlord{
+        width: 500px;
+    }
+    .btnsLand{
+        width: 3000px;
+        height: 30px;
+    }
+    .table3{
+        justify-content: flex-start;
+        gap: 20px;
+        background-color: rgb(199, 195, 195);
+        overflow-y: scroll;
+    }
+    .propertiesCard{
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .propertyDel{
+        width: 200px;
+    }
+}
+

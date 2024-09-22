@@ -1,0 +1,565 @@
+.ContactUsContainer {
+    height: max-content;
+    width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid green; */
+}
+
+@media screen and (max-width: 900px) {
+    .ContactUsContainer {
+        height: auto;
+    }
+}
+
+.aboutUs {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
+    /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 900px) {
+    .aboutUs {
+        flex-direction: column;
+    }
+}
+
+.aboutUsLeft {
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    /* background-color: greenyellow; */
+
+}
+
+.aboutUsLeft h1 {
+    /* width: 10%; */
+    height: 20%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutUsLeft p {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.711);
+}
+
+@media screen and (max-width: 900px) {
+    .aboutUsLeft {
+        height: 40%;
+        width: 100%;
+        text-align: center;
+    }
+    .aboutUsLeft p {
+        width: 80%;
+        height: 80%;
+        font-size: 16px;
+        text-align: left;
+         line-height: normal;
+        color: rgba(0, 0, 0, 0.711);
+        /* background-color: aquamarine; */
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .aboutUsLeft p {
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+.aboutUsRight {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgoldenrod; */
+}
+
+@media screen and (max-width: 900px) {
+    .aboutUsRight {
+        height: 40%;
+        width: 100%;
+    }
+}
+
+.aboutUsRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.values {
+    height: 100vh;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .values {
+        height: max-content;
+    }
+}
+
+.OurValues {
+    height: 87%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .OurValues {
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+}
+
+.OurValueWrapper {
+    height: 100%;
+    width: 93%;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.OurValueWrapper h1 {
+    color: #ffff;
+}
+
+.boxContainer {
+    height: 89%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    .boxContainer {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
+
+.box1 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+    .box1 {
+        height: fit-content;
+        width: 100%;
+    }
+}
+
+.box1 h3 {
+    height: 15%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    color: #ffff;
+}
+
+.box1 h3 hr {
+    height: 55%;
+    width: 1%;
+    background-color: orange;
+    border: none;
+}
+
+.box1 p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff96;
+}
+.box2 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+@media screen and (max-width: 900px) {
+    .box2 {
+        height: fit-content;
+        width: 100%;
+    }
+}
+
+.box2 h3 {
+    height: 15%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    color: #ffff;
+}
+
+.box2 h3 hr {
+    height: 55%;
+    width: 1%;
+    background-color: orange;
+    border: none;
+}
+
+.box2 p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff96;
+}
+
+.ImageContainer1 {
+    height: 38%;
+    width: 100%;
+}
+
+.ImageContainer1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+    .ImageContainer1 {
+        height: 20%;
+        width: 40%;
+    }
+}
+
+.Contact {
+    height: 100vh;
+    width: 100%;
+    background-color: #78A3EA;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .Contact {
+        height: max-content;
+    }
+}
+
+.contactUsWrapper {
+    height: 100%;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .contactUsWrapper {
+        height: auto;
+    }
+}
+
+.contactText {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: coral; */
+}
+
+.contactText h1 {
+    width: 63%;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contactText {
+        flex-direction: column;
+        height: 40%;
+        width: 100%;
+    }
+
+    .contactText h1 {
+        width: 100%;
+    }
+}
+
+.TextImage1 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: darkred; */
+}
+
+.TextImage1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+    .TextImage {
+        height: 30%;
+    }
+}
+
+.Contactbox {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .Contactbox {
+        height: 100%;
+        flex-direction: column;
+        gap: 5%;
+    }
+}
+
+.contactBox1 {
+    height: 90%;
+    width: 25%;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contactBox1 {
+        height: 80%;
+        width: 100%;
+    }
+}
+
+.ChatBox1Wrapper {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.ChatBox1Wrapper p {
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.ContactBoxImage {
+    height: 50%;
+    width: 70%;
+}
+
+.ContactBoxImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 900px) {
+    .ContactBoxImage {
+        height: 50%;
+    }
+}
+
+.Footer {
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: chocolate; */
+}
+
+@media screen and (max-width: 900px) {
+    .Footer {
+        height: 30vh;
+    }
+}
+
+.FooterUp {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .FooterUp {
+        height: 80%;
+        width: 90%;
+    }
+    .ctuFooterBtn{
+        width: 50%;
+    }
+}
+
+.FooterUp input {
+    height: 25%;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.FooterUp textarea {
+    height: 45%;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.ctuFooterBtn {
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: none;
+    background-color: #0052AA;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.ctuFooterBtn:hover{
+    background-color: blue;
+}
+
+/* .FooterDown {
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .FooterDown {
+        height: 50%;
+        justify-content: space-between;
+    }
+}
+
+.FooterDownBox1 {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .FooterDownBox1 {
+        width: 40%;
+    }
+}
+
+.FooterDownBox1 p {
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.FooterDownBox2 {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .FooterDownBox2 {
+        width: 20%;
+    }
+}
+
+.FooterDownBox2 h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.FooterDownBox2 p {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterDownBox3 {
+    height: 100%;
+    width: 15%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .FooterDownBox3 {
+        width: 25%;
+    }
+}
+
+.FooterDownBox3 h5 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.FooterDownBox3 a {
+    width: 40%;
+    color: #0000007d;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+} */

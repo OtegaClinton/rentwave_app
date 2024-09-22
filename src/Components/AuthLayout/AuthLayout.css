@@ -1,0 +1,10 @@
+.Auth_layout{
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    background: rgb(255,202,164);
+    background: radial-gradient(circle, rgba(255,202,164,1) 0%, rgba(255,180,126,1) 29%, rgba(255,202,164,1) 68%, rgba(255,180,126,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

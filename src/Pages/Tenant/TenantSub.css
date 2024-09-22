@@ -1,0 +1,82 @@
+.TenantSubContainer{
+    height: 97%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.TenantSubContainerHeader{
+    /* height: 12%; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+    & h3{
+        font-size: 20px;
+    }
+
+    & p {
+    
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 5px;
+        
+    }
+}
+.TenantSubContainerright{
+    height: 100%;
+    width: 70%;
+    /* background-color: blue; */
+}
+.TenantSubContainerLeft{
+    height: 100%;
+    /* width: 20%; */
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+
+}
+.menuIcons{
+    width: 40px;
+    height: 40px;
+}
+.TenantsubDown{
+    height: 85%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.TextImagesub{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+
+    & h3{
+        display: flex;
+        /* align-items: center; */
+    justify-content: center;
+    }
+}
+.SubImages{
+    height: 200px;
+    width: 200px;
+ 
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,225 @@
+.headerContainer {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffff;
+  position: fixed;
+  top: 0;
+  box-shadow: 2px 4px 3px 2px rgba(0, 0, 0, 0.293);
+  z-index: 99;
+}
+
+.Logo {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  color: white;
+  text-decoration: none;
+  /* background-color: crimson; */
+}
+.Logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.HeaderNav {
+  width: 55%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  color: royalblue;
+  cursor: pointer;
+  text-decoration: none;
+  /* gap: 50px; */
+}
+
+.nav {
+  text-decoration: none;
+  width: auto;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+/* .nav:hover {
+  background-color: rgba(0, 0, 255, 0.158);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 2px;
+} */
+
+.btns {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 29px;
+  color: white;
+}
+
+.btnHeader {
+  background-color: #4D86DB;
+  color: white;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px 2px rgba(16, 16, 16, 0.197);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.btnHeader1 {
+  /* background-color: #4D86DB; */
+  color: black;
+  border: 2px solid #4D86DB;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px 2px rgba(16, 16, 16, 0.197);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btnHeader:hover {
+  background-color: blue;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.btnHeader1:hover {
+  color: #ffff;
+  background-color: blue;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.hamburger {
+  width: 10%;
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
+}
+
+.hamburger-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.dropdown-menu {
+  width: 30%;
+  height: 45vh;
+  border-radius: 3px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  padding-left: 10px;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(0, 0, 255, 0.158);
+}
+
+@media screen and (max-width: 900px) {
+  .headerContainer {
+      width: 100%;
+      height: 10vh;
+      justify-content: space-between;
+      padding: 0 10px;
+      gap: 20px;
+  }
+
+  .Logo {
+      width: 100px;
+  }
+
+  .HeaderNav {
+      display: none;
+  }
+
+  .btns {
+      display: none;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  .dropdown-menu {
+      width: 40%;
+      height: auto;
+      top: 60px;
+      right: 0;
+  }
+
+  .dropdown-menu a {
+      font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    width: 100vw;
+      height: 10vh;
+  }
+
+  .Logo {
+      width: 80px;
+  }
+
+  .hamburger {
+      font-size: 25px;
+  }
+
+  .dropdown-menu {
+      width: 40%;
+  }
+}

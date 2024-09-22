@@ -1,0 +1,109 @@
+.TenantPayContainer{
+    height: 97%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.TenantPayContainerHeader{
+    /* height: 12%; */
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+    & h3{
+        font-size: 20px;
+    }
+
+    & p {
+        
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 5px;
+        
+    }
+}
+.TenantPayContainerright{
+    height: 100%;
+    width: 70%;
+    /* background-color: blue; */
+}
+.TenantPayContainerLeft{
+    height: 100%;
+    /* width: 20%; */
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end;
+}
+.TenantPayDown{
+    height: 85%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.TenantPayDownHeader{
+    height: 10%;
+    width: 100%;
+    background-color: #D9E8FF;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /* justify-content: center; */
+    & ul{
+        height: 100%;
+        width: 50%;
+        display: flex;
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        /* gap: 50px; */
+        & li{
+            list-style-type: none;
+            font-weight: 500;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            gap: 0px;
+        }
+    }
+}
+
+.TextPay{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    & button{
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+        background-color: #4D86DB;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    
+}
+.PayImages{
+    height: 200px;
+    width: 200px;
+ 
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}

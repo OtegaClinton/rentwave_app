@@ -1,0 +1,293 @@
+
+.MainRequestPopupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; 
+  }
+  
+  /* Popup box styling */
+  .MainRequestFormWrapper {
+    background-color: white;
+    height: 95%;
+    width:35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    @media screen and (max-width: 900px) {
+      gap: 25px;
+    /* height: fit-content; */
+      /* background-color: red; */
+   }
+   
+  }
+  
+ .MainRequestFormHeader{
+    display: flex;
+    width: 95%;
+    height: 5%;
+    /* background-color: blue; */
+    justify-content: space-between;
+    @media screen and (max-width: 900px) {
+    height: 0%;
+     }
+    & h3{
+        display: flex;
+        height: 5%;
+        justify-content: space-between;
+        @media screen and (max-width: 900px) {
+          height: 0%;
+          font-size: 13px;
+           }
+    }
+    
+ }
+
+ .CloseButton{
+    cursor: pointer;
+    width: 5%;
+ }
+ .FormContainer{
+    height: 95%;
+    width: 95%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    @media screen and (max-width: 900px) {
+      height: 96%;
+       }
+ }
+  .reqInput{
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    & p{
+        font-size:14px;
+        font-weight: 600;
+        @media screen and (max-width: 900px) {
+          
+          font-size: 12px;
+           }
+    
+    }
+    & input{
+        height: 60%;
+        width: 99.5%;
+        border: 1px solid #dddcdc;
+        border-radius: 5px;
+        outline: none;
+    }
+  }
+  .MoreReq{
+    /* width: 100%; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* background-color: yellow; */
+    & p{
+        font-size: 14px;
+        font-weight: 600;
+        @media screen and (max-width: 900px) {
+          
+          font-size: 12px;
+           }
+    }
+    & textarea{
+        height: 75%;
+        width: 100%;
+        border: 1px solid #dddcdc;
+        border-radius: 5px;
+        padding: 10px 0px 0px 10px;
+        outline: none;
+    }
+  }
+  .DateReq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+  }
+  
+  .DateReqInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+  }
+  
+  .daterow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%; 
+   height: 100%;
+
+  }
+  
+  .DateReqInputleft,
+  .DateReqInputright {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+  
+    height: 100%;
+  
+  }
+  
+  .DateReqInputleft input,
+  .DateReqInputright input {
+    width: 100%; 
+    border: 1px solid #dddcdc;
+    border-radius: 5px;
+    outline: none;
+    /* padding: 5px; */
+    font-size: 14px;
+    display: flex;
+    height: 90%;
+    /* justify-content: space-between; */
+    
+
+  }
+  
+  .reqPhone{
+    width: 100%;
+    height: 10.5%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    & p{
+        font-size: 17px;
+        font-weight: 600;
+        @media screen and (max-width: 900px) {
+          
+          font-size: 12px;
+           }
+    }
+    & input{
+        height: 70%;
+        width: 99.5%;
+        border: 1px solid #dddcdc;
+        border-radius: 5px;
+        outline: none;
+        color: #4e4d4d;
+        padding: 5px;
+    }
+  }
+  .imagereq{
+    width: 100%;
+    height: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* background-color: yellowgreen; */
+    & p{
+        font-size: 15px;
+        font-weight: 600;
+        @media screen and (max-width: 900px) {
+          
+          font-size: 12px;
+           }
+    }
+    & .imgbox{
+        height: 85%;
+        width:100%;
+        border: 1px solid #dddcdc;
+        border-radius: 5px;
+        /* padding: 10px 0px 0px 10px; */
+        display: flex;
+        flex-direction: column;
+
+
+      
+    }
+   
+  }
+  .uploadBox{
+    height:200px;
+    width: 100%;
+    background-color: #f5f5f5; 
+    overflow-y: auto; 
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img{
+        max-width: 100%; 
+        max-height: 100%; 
+        object-fit: contain;
+        /* height: 100%; */
+    }
+  }
+  label{
+    /* height: 10%; */
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+     padding:0px 0px 0px 3px;
+  }
+  .buttons{
+    width: 90%;
+   height: 7%;
+  display: flex;
+  justify-content: flex-end;
+  
+  gap: 25px;
+  @media screen and (max-width: 900px) {
+  height: 8%;
+  display: flex;
+  align-items: flex-end;
+  /* background-color: yellow; */
+     }
+
+}
+.cancelButton {
+  border: 2px solid #0052AA;
+  border-radius: 25px;
+  width: 25%;
+  height: 100%;
+  color: #4D86DB;
+  background-color: white;
+  font-size: 15px;
+  cursor: pointer;
+  @media screen and (max-width: 900px) {
+    height:75%;
+    font-size: 12px;
+    border-radius: 18px;
+    width: 40%
+       }
+}
+
+.submitButton {
+  border-radius: 25px;
+  width: 25%;
+  height: 100%;
+  color: white;
+  background-color: #4D86DB;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  @media screen and (max-width: 900px) {
+    height:75%;
+    font-size: 12px;
+    border-radius: 18px;
+    width: 40%;
+       }
+}

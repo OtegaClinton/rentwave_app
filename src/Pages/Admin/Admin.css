@@ -1,0 +1,173 @@
+.tenantPage{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    display: flex;
+}
+.Sidebarwhole{
+    height: 100%;
+    /* background-color: red; */
+}
+.tenantLeft{
+    height: 100%;
+    width: 22%;
+    background-color: #F5F5F5;
+}
+.menuIcon{
+    width: 40px;
+    height: 40px;
+}
+.LogoContainer{
+    height: 12%;
+    width: 55%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .Logo{
+        height: 80%;
+        width: 80%;
+        /* background-color: yellow; */
+
+        & img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.Profile{
+    height: 25%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+margin-bottom: 13px;
+    & .Pics{
+        height: 90px;
+        width: 90px;
+        border-radius: 50px;
+        
+
+        & img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50px;
+        }
+    }
+    & p{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 400;
+        justify-content: center;
+        display: flex;
+        color: black;
+    }
+    & h3{
+        width: 100%;
+        /* font-size: 20px; */
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
+ .MenuContainer {
+     font-size: 20px;
+     width: 100%;
+     height: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+     /* padding-top: 20px;
+     padding-left: 20px; */
+     padding: 0px 20px;
+      & nav{
+        display: flex;
+        font-size: 20px;
+        gap: 15px;
+        font-weight: 500;
+      }
+     }
+    .MenuWrapper{
+        
+        display:flex;
+       flex-direction: column;
+        gap: 13px;
+       
+    }
+.Logoutmenu{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+}
+/* .LogoutIcon{
+   font-size: 25px;
+} */
+.adminRight{
+    height: 100%;
+    width:100%;
+    background-color:rgb(199, 195, 195);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.adminRightWrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(190, 187, 187); */
+    /* padding-top: 20px; */
+    display: flex;
+    align-items:flex-end;
+}
+.popup {
+    position: absolute;
+    top: 60%;
+    left: 1%;
+    background-color: #4D86DB;
+    border-radius: 20px;
+    /* padding: 10px; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index:100001;
+    width: 20%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .popup p {
+  
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 0px;
+    & p{
+        width: 25%;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    
+  }
+  
+ 

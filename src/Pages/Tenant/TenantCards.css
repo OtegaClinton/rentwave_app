@@ -1,0 +1,36 @@
+
+
+.TextCard{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  
+    & h3{
+        display: flex;
+        justify-content: center;
+    }
+    & button{
+        height: 50px;
+        width: 200px;
+        border-radius: 30px;
+        background-color: #4D86DB;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}
+.cardImages{
+    height: 200px;
+    width: 200px;
+ 
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}

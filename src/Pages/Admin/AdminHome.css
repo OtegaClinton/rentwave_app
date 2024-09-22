@@ -1,0 +1,164 @@
+.AdminHome{
+    height: 100vh;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    /* padding-top: 30px; */
+
+}
+.AdminHomeWrapper{
+    width: 90%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   gap: 20px;
+}
+.adminHomeUp{
+    height: 10%;
+    width: 100%;
+    /* gap: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   flex-direction: column;
+    /* padding-left: 90px; */
+
+    & h1{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    & p{
+        font-size: 18px;
+    }
+}
+.AdminDashBoardBox{
+    width: 100%;
+    height: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* justify-content: space-between; */
+  gap: 130px;
+}
+.OneBox1{
+    height:100%;
+    width: 27%;
+    background-color: white;
+    /* border: 1px solid rgb(143, 141, 141); */
+    padding: 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 1px 10px 16px 1px rgba(0, 0, 0, 0.296);
+    border-top: 20px solid #4D86DB;
+    /* gap: 10px; */
+    & h1{
+        font-size: 20px;
+        font-weight: 500;
+       color: #3b3a3a;
+    }
+
+    
+}
+   
+.OneBox1:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.adminText{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    & h3{
+        
+        font-size:30px;
+        font-weight: 600;
+    }
+    & p{
+      font-size: 20px;
+        color: #4D86DB;
+        cursor: pointer;
+    }
+}
+.AdminRecentActivity{
+    width: 100%;
+ height: 60%;
+ background-color: white;
+ display: flex;
+ justify-content: flex-start;
+ /* flex-direction: column; */
+ /* border: 2px solid red; */
+ align-items: center;
+    & h1{
+        width: 100%;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px 20px 0px;
+        border-bottom: 1px solid rgb(199, 195, 195);
+    }
+
+    & h3{
+        font-weight: 400;
+        text-align: center;
+    }
+}
+.TextImage{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.table-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px ;
+    padding-right: 20px;
+    /* gap: 100px; */
+    /* border: 2px solid gold; */
+}
+.tableHolder{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.table-container h5{
+    width: 95%;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.pieChartContainer{
+    width: 40%;
+    height: 100%;
+}
+.HomeImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+
+    & img{
+        height: 100%;
+        width: 100%;
+    }
+}

@@ -1,0 +1,225 @@
+.Sidebarwhole1{
+    width: 40%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.menuIcon1{
+    width: 30px;
+    height: 30px;
+}
+.LogoContainer1{
+    height: 12%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .Logolandlord{
+        height: 80%;
+        width: 80%;
+
+        & img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.Profile1{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 13px;
+
+    & .Pics1{
+        height: 75px;
+        width: 75px;
+        border-radius: 50px;
+        
+
+        & img{
+            height: 100%;
+            width: 100%;
+            border-radius: 50px;
+        }
+    }
+    & p{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 400;
+        justify-content: center;
+        display: flex;
+        color: black;
+    }
+    & h3{
+        width: 100%;
+        /* font-size: 20px; */
+        justify-content: center;
+        display: flex;
+    }
+}
+
+
+ .MenuContainer1 {
+     font-size: 20px;
+     width: 100%;
+     height: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+     /* padding-top: 20px;
+     padding-left: 20px; */
+     padding: 0px 20px;
+      & nav{
+        display: flex;
+        font-size: 20px;
+        gap: 15px;
+        font-weight: 500;
+      }
+     }
+    .MenuWrapper1{
+        
+        display:flex;
+       flex-direction: column;
+        gap: 13px;
+       
+    }
+.Logoutmenu1{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+.popup1 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    background-color: #4D86DB;
+    border-radius: 20px;
+    /* padding: 10px; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index:100001;
+    width: 25%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+  }
+  
+  .popup1 p {
+  
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-text1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 0px;
+    & p{
+        width: 25%;
+        cursor: pointer;
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    
+  }
+
+  .active-link {
+    color: royalblue;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .Sidebarwhole1{
+        height: 100%;
+        /* position: relative; */
+        
+    }
+    .MenuContainer1 {
+       height: 70%;
+    }
+    .MenuWrapper1{
+        height: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+    }
+    .MenuWrapper1  nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        /* background-color: blueviolet; */
+       
+    }
+    .Profile1{
+        height: 100px;
+    }
+    .Profile1 h3{
+        display: none;
+    }
+    .Profile1 p{
+        display: none;
+    }
+    .active-link{
+        width: 30%;
+        display: none;
+        font-size: 10px;
+       
+    }
+
+    .menuIcon1{
+        color: black;
+        width: 40px;
+        height: 40px;
+        /* color: #4D86DB; */
+    }
+    .LogoContainer1{
+        width: 100px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Logolandlord{
+        width: 10px;
+        height: 40px;
+    }
+    .Logoutmenu{
+        width: 100%;
+       
+    }
+    .Logoutmenu p{
+        font-size: 10px;
+        display: none;
+    }
+    /* .popup1{
+        position: absolute;
+        right: 1000px;
+       margin-left: 100px;
+       border: 4px solid red;
+    } */
+
+}
+ 
